@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #7b5aa6;  <!-- PURPLE BACKGROUND -->
+}
+
+/* NYU COLOR PALETTE
+nyu violet #57068C
+light purple #7b5aa6
+white #FFE9FF
+deep violet #330662
+pale cyan #60BAAE */
+
+.inline{
+  display: inline;
+}
+
+.header{
+  background-color: #57068c; /* nyu violet */
+  padding: 11px;
+  padding-left: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: "Trebuchet MS";
+}
+.headerW{
+  background-color: #FFE9FF; /* white */
+  padding: 11px;
+  padding-left: 20px;
+  color: black;
+  font-size: 20px;
+  font-family: "Trebuchet MS";
+}
+
+.removeTextEffect a{
+  font-family: "Trebuchet MS";
+  text-decoration:none
+}
+.bgPurple{
+  background-color: #7b5aa6;   /* light purple */
+  background-size: contain;
+}
+.whiteBox{
+  background-color: #FFE9FF; /* white */
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  max-width: 600px;
+}
+
+.violetBanner{
+  background-color: #330662; /* deep violet */
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 120px;
+  padding-top: 120px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.whiteBanner{
+  background-color: #FFE9FF; /* white */
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.emptyBanner{
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 40px;
+  padding-top: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.emptyBox{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 600px;
+}
+
+.footer{
+  background-color: #FFE9FF;   /* white */
+}
+
+.whiteText{
+  color: white;
+  font-family: "Trebuchet MS";
+}
+.violetText{
+  color: #57068C;
+  font-family: "Trebuchet MS";
+}
+.smallIcon img{
+  height: 30px;
+}
+
+#header1 img{
+  height: 60px;
+}
+
+/* changes all title-related stuff */
+.pageTitle{
+  font-size: 60px;
+}
+
+/* for all the regular size text */
+.pageText{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Trebuchet MS";
+}
+
+.center {
+  display: flex; /* use flexbox for centering */
+  justify-content: center;
+}
+.flex-container {
+  display: flex; /* makes elements flexible */
+  flex-wrap: wrap; /* helps wrap screen*/
+  justify-content: space-around;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.left {
+  flex: 1; /* Grow and shrink equally to take up available space */
+}
+
+.right {
+  flex: 1; /* Grow and shrink equally to take up available space */
+}
+
+.marginLess h1, p, a{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* placeholder map */
+.imgLarge{
+  padding: 40px;
+  height: 20px;
+}
+
+#mainVideo{
+  width: 900px;
+}
+
+
+#header2 span {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+#header2 span a {
+  text-decoration: none;
+  color: #000; /* Change the color to your desired link color */
+}
+
+#minimap img {
+  height: 300px;
+}
+
+#campusGuide img {
+  height: 700px;
+}
+
+#endbar span {
+  margin-left: 0px;
+  margin-right: 300px;
+}
+  #groupMembers span {
+    margin-left: 400px;
+    margin-right: 100px;
+
+
+
+#rightImage2 img {
+  width: 400px;
+}
