@@ -11,12 +11,18 @@ white #FFE9FF
 deep violet #330662
 pale cyan #60BAAE */
 
+/* spider-man color palette
+red: #e82a1a
+black #101010
+dark blue: 1c345d
+*/
+
 .inline{
   display: inline;
 }
 
 .header{
-  background-color: #57068c; /* nyu violet */
+  background-color: #101010; /* black */
   padding: 11px;
   padding-left: 20px;
   color: white;
