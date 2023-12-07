@@ -92,6 +92,18 @@ dark blue: 1c345d
     max-width: 400px; /* Maximum width */
     height: auto; /* Maintain aspect ratio */
 }
+
+#creditImage {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    flex: 1; /* Allows the container to grow or shrink */
+}
+#creditImage img {
+    width: 100%; /* Makes the image responsive */
+    max-width: 550px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
 .removeTextEffect a{
   font-family: "Trebuchet MS";
   text-decoration:none
